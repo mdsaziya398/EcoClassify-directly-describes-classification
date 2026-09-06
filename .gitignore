@@ -1,0 +1,52 @@
+# Smart Waste Classification — .gitignore
+
+# ── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ─────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── Environment variables ────────────────────────
+.env
+.env.local
+
+# ── IDE / Editor ─────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ──────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Models (large files — train locally) ─────────
+models/
+*.keras
+*.h5
+*.pb
+
+# ── Training outputs (regenerate by running eval) ─
+outputs/
+
+# ── Dataset (too large for Git) ──────────────────
+Dataset/extracted/
+Dataset/*.zip
+
+# ── Streamlit cache ──────────────────────────────
+.streamlit/
