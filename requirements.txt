@@ -1,0 +1,8 @@
+tf-nightly
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+pillow
+streamlit
